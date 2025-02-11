@@ -1,7 +1,6 @@
 /* eslint-disable jsx-a11y/label-has-associated-control */
 /* eslint-disable jsx-a11y/control-has-associated-label */
 import React, { FormEvent, useEffect, useRef, useState } from 'react';
-// import { UserWarning } from './UserWarning';
 import {
   deleteTodos,
   editTodos,
