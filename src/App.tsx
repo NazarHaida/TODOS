@@ -29,9 +29,7 @@ export const App: React.FC = () => {
   const [clearingCompletedIds, setClearingCompletedIds] = useState<Set<number>>(
     new Set(),
   );
-
   const isAllCompleted = todos.every(todo => todo.completed);
-
   const ref = useRef<HTMLInputElement | null>(null);
 
   const updateTodos = (todoId, title) => {
