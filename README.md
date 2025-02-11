@@ -1,9 +1,14 @@
-# React TypeScript Starter Pack
+This project is a React-based Todo App that allows users to create, edit, mark as completed, and delete todos.
 
-To use this template click `Use this template`
+Features
+Add Todos: Users can enter a title and add new tasks.
+Edit Todos: Inline editing allows modifying existing todo titles.
+Complete Todos: Mark tasks as completed or uncompleted.
+Delete Todos: Remove tasks individually or clear all completed ones.
+Toggle All: Mark all todos as completed or active with one button.
+Filters: View All, Active, or Completed todos.
 
-### Available Scripts
-
-`Deploy` - available to deploy your application to gh-pages, to deploy the project, change the second line of code in package.json, specifically the homepage value, from "." to the repository name
-
-`SCSS Preprocessor` - available to write your styles with modern style language
+Technologies Used
+React (Functional Components & Hooks)
+TypeScript
+SCSS for styling
