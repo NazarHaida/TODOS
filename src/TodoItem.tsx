@@ -197,7 +197,7 @@ export const TodoItem: React.FC<Props> = ({
             clearingCompletedIds.has(id) ||
             isDeleting ||
             isUpdatingTitle ||
-            updatingStatusIds.has(id),
+            updatingStatusIds.has(id)
         })}
       >
         <div className="modal-background has-background-white-ter" />
