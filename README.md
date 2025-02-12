@@ -12,3 +12,5 @@ Technologies Used
 React (Functional Components & Hooks)
 TypeScript
 SCSS for styling
+
+DEMO: https://nazarhaida.github.io/TODOS/
